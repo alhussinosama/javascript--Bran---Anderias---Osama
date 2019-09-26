@@ -1,0 +1,88 @@
+// Intermediate
+// Create a JSON schema which contains the following details per employee:
+
+// Unique ID
+// First Name
+// Last Name
+// Email address
+// Job Title
+// Salary
+// Fill the schema with meaningful data for 10 Employees. Print each employee's 
+// details in a table which will look representative and easily readable for the management team.
+
+var emplo= [
+	{
+	"Unique_ID" : 1,
+	"FirstName" : "Andreas",
+	"LastName" :"Maier",
+	"Email" : "andreas.maier@code.at",
+	"JobTitle" : "Accountant",
+	"Salary" : 1600 
+},{
+	"Unique_ID" : 2,
+	"FirstName" : "Marcel",
+	"LastName" :"Brunner",
+	"Email" : "marcel.brunner@code.at",
+	"JobTitle" : "Stripper",
+	"Salary" : 2100 	
+},{
+	"Unique_ID" : 3,
+	"FirstName" : "Osman",
+	"LastName" :"Kalak",
+	"Email" : "osman.kalak@code.at",
+	"JobTitle" : "Marketing",
+	"Salary" : 1800 
+},{
+	"Unique_ID" : 4,
+	"FirstName" : "Bruno",
+	"LastName" :"Sevda",
+	"Email" : "bruno.sevda@code.at",
+	"JobTitle" : "Installateur",
+	"Salary" : 2200
+},{
+	"Unique_ID" : 5,
+	"FirstName" : "Karin",
+	"LastName" :"Schuh",
+	"Email" : "karin.schuh@code.at",
+	"JobTitle" : "Secretary",
+	"Salary" : 1300 
+},{
+	"Unique_ID" : 6,
+	"FirstName" : "Hugo",
+	"LastName" :"Boss",
+	"Email" : "hugo.boss@code.at",
+	"JobTitle" : "Designer",
+	"Salary" : 45000
+},{
+	"Unique_ID" : 7,
+	"FirstName" : "Marcel",
+	"LastName" :"Hirscher",
+	"Email" : "marcel.hirscher@code.at",
+	"JobTitle" : "Skiing teacher",
+	"Salary" : 2800	
+},{
+	"Unique_ID" : 8,
+	"FirstName" : "Santa",
+	"LastName" :"Clause",
+	"Email" : "santa.clause@code.at",
+	"JobTitle" : "Trafficant",
+	"Salary" : 1900	
+},{
+	"Unique_ID" : 9,
+	"FirstName" : "Max",
+	"LastName" :"Mustermann",
+	"Email" : "max.mustermann@code.at",
+	"JobTitle" : "Developer",
+	"Salary" : 3500 
+},{
+	"Unique_ID" : 10,
+	"FirstName" : "Christina",
+	"LastName" :"Bauer",
+	"Email" : "christina.bauer@code.at",
+	"JobTitle" : "Developer",
+	"Salary" : 2600
+}
+
+
+
+]

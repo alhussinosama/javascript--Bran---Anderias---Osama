@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intermediate</title>
+</head>
+<body>
+	<h1>Employees data</h1>
+	<script src="intermediate.json" type="text/javascript" ></script>
+
+	<script>
+		var i = 0
+    document.writeln("<table border='2'><tr>");
+    for (i = 0; i < emplo.length; i++) {
+        document.writeln("<tr><td><b>ID</b></td><td width=50>" + emplo[i].Unique_ID + "</td>");
+
+       document.writeln("<td><b>First Name</b></td><td width=50>" + emplo[i].FirstName + "</td>");
+        document.writeln("<td><b>Last Name</b></td><td width=50>" + emplo[i].LastName + "</td>");
+        document.writeln("<td><b>Email</b></td><td width=50>" + emplo[i].Email + "</td>");
+        document.writeln("<td><b>Position</b></td><td width=50 style='width:100px'>" + emplo[i].JobTitle + "</td>");
+        document.writeln("<td><b>Salary</b></td><td width=50>" + emplo[i].Salary+ "</td>");
+
+        document.writeln("</tr>");
+         }
+                 document.writeln("</table>");
+	</script>
+
+</body>
+</html>
